@@ -30,6 +30,7 @@ node () {
 			} else { 
  				bat "mvn clean deploy " 
 			} 
+		}
 	}
 	stage ('App-IC - Post build actions') {
 /*
