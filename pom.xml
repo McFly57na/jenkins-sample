@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@McFly57na 
-McFly57na
-/
-jenkins-sample-1
-forked from bnasslahsen/jenkins-sample-1
-0
-015
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-jenkins-sample-1/pom.xml
-@McFly57na
-McFly57na Update pom.xml
-…
-Latest commit 7a9f332 20 minutes ago
- History
- 2 contributors
-@bnasslahsen@McFly57na
-61 lines (57 sloc)  1.89 KB
-  
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.apollo.samples</groupId>
