@@ -5,7 +5,7 @@ timestamps {
 node () {
 
 	stage ('App-IC - Checkout') {
- 	 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'git-login', url: 'https://github.com/michelMbuila/jenkins-sample.git']]]) 
+ 	 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'git-login', url: 'https://github.com/McFly57na/jenkins-sample.git']]]) 
 	}
 	stage ('App-IC - Build') {
  			// Maven build step
