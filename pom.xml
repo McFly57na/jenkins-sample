@@ -16,3 +16,10 @@
     </dependency>
   </dependencies>
 </project>
+
+
+<properties>
+  <sonar.projectKey>McFly57na_jenkins-sample</sonar.projectKey>
+  <sonar.organization>mcfly57na</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
