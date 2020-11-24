@@ -18,11 +18,18 @@ node () {
  	}
 }
 
-	stage ('App-IC - Build') {
+	stage ('App-IC - Sonar') {
 		withSonarQubeEnv('sonar') {
 			bat 'mvn sonar:sonar'
 		}
 	}
-	
+	stage ('App-IC - Deploy') {
+		withMaven(maven: 'maven') { 
+ 			if(isUnix()) {
+ 				sh "mvn clean deploy " 
+			} else { 
+ 				bat "mvn clean deploy " 
+			} 
+	}
 }
 }
